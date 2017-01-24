@@ -5,6 +5,15 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nuget1", "nuget1.csproj", "{093F96AF-548A-4085-8366-35600F57BF17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artifactory1", "..\Artifactory1\Artifactory1.csproj", "{9CAD74E7-637B-43DA-90FD-B9A61939043E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".artifactory", ".artifactory", "{390218E8-7140-468D-B59C-E037D6160ECD}"
+	ProjectSection(SolutionItems) = preProject
+		.artifactory\Artifactory.build = .artifactory\Artifactory.build
+		.artifactory\Deploy.targets = .artifactory\Deploy.targets
+		.artifactory\Resolve.targets = .artifactory\Resolve.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +24,10 @@ Global
 		{093F96AF-548A-4085-8366-35600F57BF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093F96AF-548A-4085-8366-35600F57BF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093F96AF-548A-4085-8366-35600F57BF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAD74E7-637B-43DA-90FD-B9A61939043E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAD74E7-637B-43DA-90FD-B9A61939043E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAD74E7-637B-43DA-90FD-B9A61939043E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAD74E7-637B-43DA-90FD-B9A61939043E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
